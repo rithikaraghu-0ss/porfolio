@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | R.RITHIKA</title>
+    <meta name="description" content="A professional and creative portfolio website showcasing projects and expertise by R.RITHIKA.">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <div class="mesh-gradient"></div>
+
+    <!-- Navigation -->
+    <nav id="main-nav">
+        <div class="nav-container">
+            <a href="#hero" class="logo">R<span>.</span>R<span>ITHIKA</span></a>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-cta">
+                <a href="#contact" class="btn btn-primary">Hire Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <span class="badge" id="availability-badge">Available for Work</span>
+                    <h1 class="hero-title">Creative Solutions for <span>Modern Challenges.</span></h1>
+                    <p class="hero-description">
+                        Hi, I'm R.Rithika. I design and build high-performance web applications with a focus on user experience and minimalist design.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-gradient">View Projects <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#contact" class="btn btn-outline">Let's Talk</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="glass-orb orb-1"></div>
+                    <div class="glass-orb orb-2"></div>
+                    <div class="glass-card">
+                        <div class="card-header">
+                            <div class="dot red"></div>
+                            <div class="dot yellow"></div>
+                            <div class="dot green"></div>
+                        </div>
+                        <div class="card-body">
+                            <code>
+                                <span class="keyword">const</span> <span class="variable">profile</span> = {<br>
+                                &nbsp;&nbsp;<span class="property">name</span>: <span class="string">'R.Rithika'</span>,<br>
+                                &nbsp;&nbsp;<span class="property">role</span>: <span class="string">'Full Stack Developer'</span>,<br>
+                                &nbsp;&nbsp;<span class="property">status</span>: <span class="string">'Building better web'</span><br>
+                                };
+                            </code>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse"></div>
+                <p>Scroll Down</p>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Selected <span>Work</span></h2>
+                    <p class="section-subtitle">A showcase of recent digital products and creative solutions.</p>
+                </div>
+                
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card reveal" id="project-1">
+                        <div class="project-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=800&h=500" alt="Resume Ranking Tool" class="project-image">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="icon-link" aria-label="View Project"><i class="fa-solid fa-link"></i></a>
+                                    <a href="#" class="icon-link" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span class="tag">AI</span>
+                                <span class="tag">Next.js</span>
+                            </div>
+                            <h3 class="project-title">AI Resume Ranking Tool</h3>
+                            <p class="project-desc">Intelligence-driven recruitment platform for automated candidate evaluation.</p>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card reveal" id="project-2">
+                        <div class="project-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800&h=500" alt="Car Price Prediction" class="project-image">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="icon-link" aria-label="View Project"><i class="fa-solid fa-link"></i></a>
+                                    <a href="#" class="icon-link" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span class="tag">ML</span>
+                                <span class="tag">Python</span>
+                            </div>
+                            <h3 class="project-title">Car Price Prediction Model</h3>
+                            <p class="project-desc">Regression-based forecasting tool for precise automotive market valuation.</p>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card reveal" id="project-3">
+                        <div class="project-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=800&h=500" alt="Ecommerce Analytics" class="project-image">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="icon-link" aria-label="View Project"><i class="fa-solid fa-link"></i></a>
+                                    <a href="#" class="icon-link" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Firebase</span>
+                            </div>
+                            <h3 class="project-title">Bus Ticket System</h3>
+                            <p class="project-desc">Seamless ticket reservation and management dashboard for commuters.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container glass-panel reveal">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2 class="contact-title">Let's <span>Connect</span></h2>
+                        <p class="contact-desc">Interested in collaborating or have a project in mind? Reach out and I'll get back to you within 24 hours.</p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-item">
+                                <div class="icon-box"><i class="fa-solid fa-envelope"></i></div>
+                                <div>
+                                    <p class="item-label">Email</p>
+                                    <a href="mailto:hello@rithika.me" class="item-value">hello@rithika.me</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon-box"><i class="fa-brands fa-linkedin-in"></i></div>
+                                <div>
+                                    <p class="item-label">LinkedIn</p>
+                                    <a href="#" class="item-value">linkedin.com/in/rithika</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon-box"><i class="fa-brands fa-github"></i></div>
+                                <div>
+                                    <p class="item-label">GitHub</p>
+                                    <a href="#" class="item-value">github.com/rithika</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-gradient full-width" id="submit-btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 R.RITHIKA. Crafted with passion.</p>
+                <div class="footer-socials">
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Dribbble"><i class="fa-brands fa-dribbble"></i></a>
+                </div>
+                <p class="footer-tagline">Design. Code. Deploy.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
